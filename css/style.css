@@ -21,6 +21,7 @@ body {
 
 .button-row{
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .button-row button {
@@ -31,4 +32,25 @@ body {
     color: #8A8A8A;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+}
+
+.main-section {
+    background: rgba(0, 0, 0, 0.205) url(../img/banner.jpg);
+    background-blend-mode: darken;
+    min-height: 500px;
+    width: 1200px;
+    margin: auto 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;    
+}
+
+.main-section-title {
+    width: 600px;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    padding-left: 40px;
+    padding-bottom: 50px;
 }
