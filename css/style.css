@@ -68,8 +68,8 @@ h1 {
 }
 /* /main banner */
 
-/* subtitle */
-.subtitle-row {
+/* float section */
+.second-section-row {
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -79,4 +79,3 @@ h1 {
     font-size: 32px;
     font-weight: 700;
 }
-/* /subtitle */
