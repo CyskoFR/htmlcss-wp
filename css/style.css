@@ -117,3 +117,23 @@ h1 {
     border-radius: 10px;
     margin-bottom: 20px;
 }
+/* /float section left */
+
+/* float section middle */
+.float-section-middle {
+    width: calc(60% - 40px);
+    margin: 0px 20px;
+    float: left;
+}
+
+.img-middle-float {
+    height: 200px;
+    background-image: url(../img/banner-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(80%);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+/* /float section middle */
