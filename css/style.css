@@ -137,3 +137,21 @@ h1 {
     margin-bottom: 20px;
 }
 /* /float section middle */
+
+/* float section right */
+.float-section-right {
+    width: 20%;
+    float: left;
+}
+
+.img-right-float {
+    height: 200px;
+    background-image: url(../img/img-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(80%);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+/* /float section right */
