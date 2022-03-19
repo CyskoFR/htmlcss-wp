@@ -14,3 +14,21 @@ body {
     display: table;
     clear: both;
 }
+
+.logo {
+    height: 60px;
+}
+
+.button-row{
+    margin-top: 30px;
+}
+
+.button-row button {
+    border: none;
+    background: none;
+    margin-right: 10px;
+    margin-left: 4px;
+    color: #8A8A8A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
