@@ -15,6 +15,11 @@ body {
     clear: both;
 }
 
+p {
+    font-size: 14px;
+}
+
+/* logo & header buttons */
 .logo {
     height: 60px;
 }
@@ -33,13 +38,15 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
+/* /logo & header buttons */
 
+/* main banner */
 .main-section {
     background: rgba(0, 0, 0, 0.205) url(../img/banner.jpg);
     background-blend-mode: darken;
     min-height: 500px;
     width: 1200px;
-    margin: auto 30px;
+    margin: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,10 +54,29 @@ body {
 }
 
 .main-section-title {
-    width: 600px;
+    width: 640px;
     color: white;
     position: absolute;
     bottom: 0px;
     padding-left: 40px;
     padding-bottom: 50px;
 }
+
+h1 {
+    font-size: 30px;
+    font-weight: 300;
+}
+/* /main banner */
+
+/* subtitle */
+.subtitle-row {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.leadership-font {
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+}
+/* /subtitle */
