@@ -15,9 +15,15 @@ body {
     clear: both;
 }
 
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
 p {
     font-size: 14px;
 }
+
 
 /* logo & header buttons */
 .logo {
@@ -45,7 +51,6 @@ p {
     background: rgba(0, 0, 0, 0.205) url(../img/banner.jpg);
     background-blend-mode: darken;
     min-height: 500px;
-    width: 1200px;
     margin: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -69,7 +74,12 @@ h1 {
 /* /main banner */
 
 /* float section */
-.second-section-row {
+.float-section {
+    width: ;
+}
+
+/* float section top row */
+.float-section-row {
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -78,4 +88,10 @@ h1 {
     color: black;
     font-size: 32px;
     font-weight: 700;
+}
+/* /float section top row */
+
+/* float section left */
+.float-section-left {
+
 }
